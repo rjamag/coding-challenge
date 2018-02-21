@@ -10,6 +10,23 @@ function post(parent, { url, description }, ctx, info) {
   )
 }
 
+function report(parent, args, ctx, info) {
+  const userId = getUserId(ctx)
+  const { linkId } = args
+  const { description } = args
+
+  return ctx.db.mutation.createReport(
+    {
+      data: {
+        description,
+        link: { connect: { id: linkId } },
+        user: { connect: { id: userId } },
+      },
+    },
+    info,
+  )
+}
+
 async function signup(parent, args, ctx, info) {
   const password = await bcrypt.hash(args.password, 10)
   const user = await ctx.db.mutation.createUser({
@@ -65,6 +82,7 @@ async function vote(parent, args, ctx, info) {
 
 module.exports = {
   post,
+  report,
   signup,
   login,
   vote,

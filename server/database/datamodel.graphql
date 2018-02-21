@@ -1,6 +1,13 @@
+type Report {
+  id: ID! @unique
+  description: String!
+  link: Link!
+  user: User!
+}
+
 type Vote {
   id: ID! @unique
-  link: Link!  
+  link: Link!
   user: User!
 }
 
@@ -11,6 +18,7 @@ type Link {
   url: String!
   postedBy: User
   votes: [Vote!]!
+  reports: [Report!]!
 }
 
 type User {
@@ -20,4 +28,5 @@ type User {
   password: String!
   links: [Link!]!
   votes: [Vote!]!
+  reports: [Report!]!
 }

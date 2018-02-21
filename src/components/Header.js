@@ -25,7 +25,7 @@ class Header extends Component {
             <div className="flex">
               <div className="ml1">|</div>
               <Link to="/create" className="ml1 no-underline black">
-                submit
+                create link
               </Link>
             </div>
           )}

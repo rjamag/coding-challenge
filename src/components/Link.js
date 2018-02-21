@@ -3,8 +3,10 @@ import { AUTH_TOKEN } from '../constants'
 import { timeDifferenceForDate } from '../utils'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
+import { withRouter } from 'react-router'
 
 class Link extends Component {
+
   render() {
     const authToken = localStorage.getItem(AUTH_TOKEN)
     return (
@@ -12,8 +14,8 @@ class Link extends Component {
         <div className="flex items-center">
           <span className="gray">{this.props.index + 1}.</span>
           {authToken && (
-            <div className="ml1 gray f11" onClick={() => this._voteForLink()}>
-              ▲
+            <div className="pointer ml1 gray f11" onClick={() => this._voteForLink()}>
+            ▲
             </div>
           )}
         </div>
@@ -27,10 +29,19 @@ class Link extends Component {
               ? this.props.link.postedBy.name
               : 'Unknown'}{' '}
             {timeDifferenceForDate(this.props.link.createdAt)}
+            {authToken && (
+              <span className="pointer ml1 gray f11" onClick={() => this._reportLink()}>
+                 - report
+              </span>
+              )}
           </div>
         </div>
       </div>
     )
+  }
+
+  _reportLink = async () => {
+    this.props.history.push(`/report/${this.props.link.id}`)
   }
 
   _voteForLink = async () => {
@@ -66,6 +77,6 @@ const VOTE_MUTATION = gql`
   }
 `
 
-export default graphql(VOTE_MUTATION, {
+export default withRouter(graphql(VOTE_MUTATION, {
   name: 'voteMutation',
-})(Link)
+})(Link))
