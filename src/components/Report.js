@@ -5,17 +5,16 @@ class Report extends Component {
   render() {
     return (
       <div className="flex mt2 items-start">
-
-        <div className="flex items-center">
-          <span className="gray">{this.props.index + 1}.</span>
-        </div>
-
         <div className="ml1">
-          <div>
+          <div className="f6 lh-copy gray">
+            <span>{this.props.index + 1}. {this.props.report.user.name} </span>
+          </div>
+
+          <div className="f6 lh-copy">
             {this.props.report.description}
           </div>
+          <br />
         </div>
-
       </div>
     )
   }

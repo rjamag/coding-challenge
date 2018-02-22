@@ -20,6 +20,7 @@ class CreateLink extends Component {
             onChange={e => this.setState({ description: e.target.value })}
             type="text"
             placeholder="A description for the link"
+            required
           />
           <input
             className="mb2"
@@ -27,6 +28,7 @@ class CreateLink extends Component {
             onChange={e => this.setState({ url: e.target.value })}
             type="text"
             placeholder="The URL for the link"
+            required
           />
         </div>
         <button onClick={() => this._createLink()}>Submit</button>

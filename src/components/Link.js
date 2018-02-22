@@ -15,7 +15,7 @@ class Link extends Component {
           <span className="gray">{this.props.index + 1}.</span>
           {authToken && (
             <div className="pointer ml1 gray f11" onClick={() => this._voteForLink()}>
-            ▲
+              ▲
             </div>
           )}
         </div>
@@ -30,10 +30,10 @@ class Link extends Component {
               : 'Unknown'}{' '}
             {timeDifferenceForDate(this.props.link.createdAt)}
             {authToken && (
-              <span className="pointer ml1 gray f11" onClick={() => this._reportLink()}>
-                 - report
+              <span className="pointer f6 lh-copy gray" onClick={() => this._reportLink()}>
+                &nbsp;| report
               </span>
-              )}
+            )}
           </div>
         </div>
       </div>

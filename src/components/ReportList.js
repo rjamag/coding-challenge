@@ -7,11 +7,11 @@ class ReportList extends Component {
     return (
       <div>
         <div>
-          <h3>Fake News Reports</h3>
+          <h4>Fake News Reports</h4>
         </div>
 
         {this.props.reports.map((report, index) => (
-          <Report key={report.id} index={index} report={report}/>
+          <Report key={report.id} index={index} report={report} />
         ))}
 
       </div>

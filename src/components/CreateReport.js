@@ -18,10 +18,13 @@ class CreateReport extends Component {
   }
 
   render() {
+    if (this.state.linkDescription === '' && this.state.linkUrl === '') {
+      return <div>Loading</div>
+    }
 
     return (
       <div>
-        <h5>{this.state.linkDescription} {this.state.linkUrl}</h5>
+        <h3>{this.state.linkDescription} <br /> {this.state.linkUrl}</h3>
 
         <div className="flex flex-column mt3">
           <textarea
@@ -30,12 +33,12 @@ class CreateReport extends Component {
             value={this.state.description}
             type="text"
             placeholder="Enter a description for the fake news report"
-            maxLength="250"
+            maxLength="2000"
             required
           />
         </div>
 
-        <button onClick={() => this._createReport()}>Report</button>
+        <button onClick={() => this._createReport()}>Report Fake News</button>
 
         <ReportList
           linkId={this.state.linkId}
@@ -48,7 +51,6 @@ class CreateReport extends Component {
 
   _executeSearchReports = async () => {
     const linkId = this.props.match.params.id
-    this.setState({ linkId })
 
     const result = await this.props.client.query({
       query: FEED_REPORTS_QUERY,
@@ -56,14 +58,15 @@ class CreateReport extends Component {
     })
 
     const reports = result.data.feedReportsFromLink.links[0].reports
-    this.setState({ reports })
-
     const linkUrl = result.data.feedReportsFromLink.links[0].url
-    this.setState({ linkUrl })
-
     const linkDescription = result.data.feedReportsFromLink.links[0].description
-    this.setState({ linkDescription })
 
+    this.setState({
+      linkId,
+      linkUrl,
+      linkDescription,
+      reports,
+    })
   }
 
   _createReport = async () => {
@@ -76,8 +79,6 @@ class CreateReport extends Component {
         linkId,
       },
       update: (store, { data: { report } }) => {
-        console.log(`update after report: `, report)
-
         const data = store.readQuery({
           query: FEED_REPORTS_QUERY,
           variables: {
@@ -85,14 +86,16 @@ class CreateReport extends Component {
           },
         })
 
-        data.feedReportsFromLink.links[0].reports.push(report.link.reports[report.link.reports.length-1])
+        data.feedReportsFromLink.links[0].reports.push(report.link.reports[report.link.reports.length - 1])
 
         store.writeQuery({ query: FEED_REPORTS_QUERY, data })
 
         const reports = data.feedReportsFromLink.links[0].reports
-        this.setState({ reports })
 
-        this.setState({ description: '' })
+        this.setState({
+          reports,
+          description: ''
+        })
       },
     })
   }
@@ -109,6 +112,7 @@ const REPORT_MUTATION = gql`
           description
           user {
             id
+            name
           }
         }
       }
@@ -129,9 +133,11 @@ const FEED_REPORTS_QUERY = gql`
         reports {
           id
           description
+          user {
+            id
+            name
+          }
         }
-
-
         createdAt
         postedBy {
           id
@@ -143,8 +149,6 @@ const FEED_REPORTS_QUERY = gql`
             id
           }
         }
-
-
       }
     }
   }

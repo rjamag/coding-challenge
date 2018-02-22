@@ -114,7 +114,7 @@ class LinkList extends Component {
           }
         }
       `,
-      updateQuery: (previous, { subscriptionData }) => {        
+      updateQuery: (previous, { subscriptionData }) => {
         const newAllLinks = [subscriptionData.data.newLink.node, ...previous.feed.links]
         const result = {
           ...previous,
