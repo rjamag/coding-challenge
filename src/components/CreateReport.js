@@ -55,6 +55,7 @@ class CreateReport extends Component {
     const result = await this.props.client.query({
       query: FEED_REPORTS_QUERY,
       variables: { filter: linkId },
+      options: { pollInterval: 1000 },
     })
 
     const reports = result.data.feedReportsFromLink.links[0].reports
@@ -81,12 +82,13 @@ class CreateReport extends Component {
       update: (store, { data: { report } }) => {
         const data = store.readQuery({
           query: FEED_REPORTS_QUERY,
+          options: { pollInterval: 1000 },
           variables: {
             filter: linkId,
           },
         })
 
-        data.feedReportsFromLink.links[0].reports.push(report.link.reports[report.link.reports.length - 1])
+        data.feedReportsFromLink.links[0].reports = report.link.reports
 
         store.writeQuery({ query: FEED_REPORTS_QUERY, data })
 
