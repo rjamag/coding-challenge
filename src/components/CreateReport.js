@@ -82,7 +82,6 @@ class CreateReport extends Component {
       update: (store, { data: { report } }) => {
         const data = store.readQuery({
           query: FEED_REPORTS_QUERY,
-          options: { pollInterval: 1000 },
           variables: {
             filter: linkId,
           },
