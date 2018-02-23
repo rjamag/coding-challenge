@@ -59,7 +59,7 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
-"@types/node@*":
+"@types/node@*", "@types/node@^9.4.6":
   version "9.4.6"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.6.tgz#d8176d864ee48753d053783e4e463aec86b8d82e"
 
@@ -181,12 +181,13 @@ apollo-link@1.0.7:
     zen-observable "^0.6.0"
 
 apollo-link@^1.0.0, apollo-link@^1.0.6, apollo-link@^1.0.7, apollo-link@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.1.0.tgz#9d573b16387ee0d8e147b1f319e42c8c562f18f7"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.0.tgz#1abba5456eb35fc8b8a79f3be421e683a9ecfc41"
   dependencies:
+    "@types/node" "^9.4.6"
     "@types/zen-observable" "0.5.3"
     apollo-utilities "^1.0.0"
-    zen-observable "^0.7.0"
+    zen-observable "^0.8.0"
 
 apollo-server-core@^1.3.2:
   version "1.3.2"
@@ -1894,10 +1895,10 @@ graphql-static-binding@0.8.0:
     graphql "0.12.3"
 
 graphql-subscriptions@^0.5.6:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/graphql-subscriptions/-/graphql-subscriptions-0.5.7.tgz#56294145c408f8c5216af2b6f2b9f03f73c3d2f3"
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/graphql-subscriptions/-/graphql-subscriptions-0.5.8.tgz#13a6143c546bce390404657dc73ca501def30aa7"
   dependencies:
-    iterall "^1.1.3"
+    iterall "^1.2.1"
 
 graphql-tools@2.18.0:
   version "2.18.0"
@@ -2159,9 +2160,9 @@ ip-regex@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-1.0.3.tgz#dc589076f659f419c222039a33316f1c7387effd"
 
-ipaddr.js@1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.5.2.tgz#d4b505bde9946987ccf0fc58d9010ff9607e3fa0"
+ipaddr.js@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.6.0.tgz#e3fa357b773da619f26e95f049d055c72796f86b"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -2366,9 +2367,9 @@ iterall@1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.3.tgz#1cbbff96204056dde6656e2ed2e2226d0e6d72c9"
 
-iterall@^1.1.0, iterall@^1.1.1, iterall@^1.1.3, iterall@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.0.tgz#434e9f41f0b99911ab9c3d49d95f0e079176a2a2"
+iterall@^1.1.0, iterall@^1.1.1, iterall@^1.1.3, iterall@^1.2.0, iterall@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.1.tgz#59a347ae8001d2d4bc546b8487ca755d61849965"
 
 js-base64@^2.3.2:
   version "2.4.3"
@@ -2674,8 +2675,8 @@ marked-terminal@^2.0.0:
     node-emoji "^1.4.1"
 
 marked@^0.3.6:
-  version "0.3.15"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.15.tgz#de96982e54c880962f5093a2fa93d0866bf73668"
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.16.tgz#2f188b7dfcfa6540fe9940adaf0f3b791c9a5cba"
 
 "match-stream@>= 0.0.2 < 1":
   version "0.0.2"
@@ -2695,8 +2696,8 @@ mem@^1.1.0:
     mimic-fn "^1.0.0"
 
 memfs@^2.5.3:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/memfs/-/memfs-2.7.1.tgz#eaa0f5fb9682688ad1ab21e747eace0b441d9bc1"
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/memfs/-/memfs-2.8.0.tgz#a64887d6b540084be5847eb1bd3b5ac8f759c114"
   dependencies:
     fast-extend "0.0.2"
     fs-monkey "^0.3.0"
@@ -2795,8 +2796,8 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
 nan@^2.3.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.8.0.tgz#ed715f3fe9de02b57a5e6252d90a96675e1f085a"
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
 
 natives@^1.1.0:
   version "1.1.1"
@@ -3380,11 +3381,11 @@ protochain@^1.0.5:
   resolved "https://registry.yarnpkg.com/protochain/-/protochain-1.0.5.tgz#991c407e99de264aadf8f81504b5e7faf7bfa260"
 
 proxy-addr@~2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.2.tgz#6571504f47bb988ec8180253f85dd7e14952bdec"
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.3.tgz#355f262505a621646b3130a728eb647e22055341"
   dependencies:
     forwarded "~0.1.2"
-    ipaddr.js "1.5.2"
+    ipaddr.js "1.6.0"
 
 prr@~1.0.1:
   version "1.0.1"
@@ -3985,13 +3986,26 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-subscriptions-transport-ws@0.9.5, subscriptions-transport-ws@^0.9.5:
+subscriptions-transport-ws@0.9.5:
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/subscriptions-transport-ws/-/subscriptions-transport-ws-0.9.5.tgz#faa9eb1230d5f2efe355368cd973b867e4483c53"
   dependencies:
     backo2 "^1.0.2"
     eventemitter3 "^2.0.3"
     iterall "^1.1.1"
+    lodash.assign "^4.2.0"
+    lodash.isobject "^3.0.2"
+    lodash.isstring "^4.0.1"
+    symbol-observable "^1.0.4"
+    ws "^3.0.0"
+
+subscriptions-transport-ws@^0.9.5:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/subscriptions-transport-ws/-/subscriptions-transport-ws-0.9.6.tgz#5ff86a0746316ca3eb2423b118b8bc74a6793e1b"
+  dependencies:
+    backo2 "^1.0.2"
+    eventemitter3 "^2.0.3"
+    iterall "^1.2.1"
     lodash.assign "^4.2.0"
     lodash.isobject "^3.0.2"
     lodash.isstring "^4.0.1"
@@ -4416,9 +4430,9 @@ zen-observable@^0.6.0:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.6.1.tgz#01dbed3bc8d02cbe9ee1112c83e04c807f647244"
 
-zen-observable@^0.7.0:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.7.1.tgz#f84075c0ee085594d3566e1d6454207f126411b3"
+zen-observable@^0.8.0:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/zen-observable/-/zen-observable-0.8.6.tgz#e2419311497019419d7bb56d8f6a56356a607272"
 
 zip-stream@^1.2.0:
   version "1.2.0"

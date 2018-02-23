@@ -18,6 +18,7 @@ type Link implements Node {
 type Report implements Node {
   id: ID!
   description: String!
+  createdAt: DateTime!
   link(where: LinkWhereInput): Link!
   user(where: UserWhereInput): User!
 }
@@ -416,15 +417,16 @@ enum ReportOrderByInput {
   id_DESC
   description_ASC
   description_DESC
-  updatedAt_ASC
-  updatedAt_DESC
   createdAt_ASC
   createdAt_DESC
+  updatedAt_ASC
+  updatedAt_DESC
 }
 
 type ReportPreviousValues {
   id: ID!
   description: String!
+  createdAt: DateTime!
 }
 
 type ReportSubscriptionPayload {
@@ -531,6 +533,14 @@ input ReportWhereInput {
   description_not_starts_with: String
   description_ends_with: String
   description_not_ends_with: String
+  createdAt: DateTime
+  createdAt_not: DateTime
+  createdAt_in: [DateTime!]
+  createdAt_not_in: [DateTime!]
+  createdAt_lt: DateTime
+  createdAt_lte: DateTime
+  createdAt_gt: DateTime
+  createdAt_gte: DateTime
   link: LinkWhereInput
   user: UserWhereInput
 }

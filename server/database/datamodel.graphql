@@ -1,6 +1,7 @@
 type Report {
   id: ID! @unique
   description: String!
+  createdAt: DateTime!
   link: Link!
   user: User!
 }

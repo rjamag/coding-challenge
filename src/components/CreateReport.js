@@ -110,6 +110,7 @@ const REPORT_MUTATION = gql`
         reports {
           id
           description
+          createdAt
           user {
             id
             name
@@ -133,6 +134,7 @@ const FEED_REPORTS_QUERY = gql`
         reports {
           id
           description
+          createdAt
           user {
             id
             name
