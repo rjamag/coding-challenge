@@ -38,7 +38,7 @@ class CreateReport extends Component {
           />
         </div>
 
-        <button onClick={() => this._createReport()}>Report Fake News</button>
+        <button onClick={() => this._createReport()} disabled={!this.state.description}>Report Fake News</button>
 
         <ReportList
           linkId={this.state.linkId}
@@ -55,7 +55,7 @@ class CreateReport extends Component {
     const result = await this.props.client.query({
       query: FEED_REPORTS_QUERY,
       variables: { filter: linkId },
-      options: { pollInterval: 1000 },
+      options: { pollInterval: 5000 },
     })
 
     const reports = result.data.feedReportsFromLink.links[0].reports
