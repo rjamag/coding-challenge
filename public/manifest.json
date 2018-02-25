@@ -1,6 +1,6 @@
 {
-  "short_name": "Hacker Fake News App",
-  "name": "Report Fake News App Sample",
+  "short_name": "Hacker Fake News Report App",
+  "name": "Fake News Report App",
   "icons": [
     {
       "src": "favicon.ico",
