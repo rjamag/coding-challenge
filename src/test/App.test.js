@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from '../components/App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from '../components/App'
 import Enzyme, { shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
