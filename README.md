@@ -1,3 +1,11 @@
+# Coding Challenge
+
+This is coding challenge based on the React & Appolo Tutorial.
+
+Front-End: React and Appolo.
+Back-End: Node.js, Express and GraphQL - Prisma.
+Tests: Jest, Enzyme and Wallaby.
+
 # React & Apollo Tutorial
 
 This is the sample project that belongs to the [React & Apollo Tutorial](https://www.howtographql.com/react-apollo/0-introduction/) on How to GraphQL.
@@ -79,3 +87,8 @@ yarn start
 ```
 
 You can now open your browser and use the app on `http://localhost:3000`.
+
+
+### 6. Demo app running on Heroku
+
+`https://tranquil-caverns-85209.herokuapp.com`.
