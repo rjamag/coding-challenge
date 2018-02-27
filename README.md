@@ -80,7 +80,7 @@ yarn start
 
 ### 5. Run the app
 
-Now that the server is running, you can run the app as well (the command needs to be run in a new terminal tab/window inside the root directory `react-apollo`):
+Now that the server is running, you can run the app as well (the command needs to be run in a new terminal tab/window inside the root directory `coding-challenge`):
 
 ```sh
 yarn start
@@ -89,6 +89,6 @@ yarn start
 You can now open your browser and use the app on `http://localhost:3000`.
 
 
-### 6. Demo app running on Heroku
+### 6. Hosted Demo - Heroku
 
 `https://tranquil-caverns-85209.herokuapp.com`
