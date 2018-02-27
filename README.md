@@ -15,7 +15,7 @@ This is the sample project that belongs to the [React & Apollo Tutorial](https:/
 ### 1. Clone repository
 
 ```sh
-git clone https://github.com/howtographql/react-apollo/
+git clone https://github.com/rjamag/coding-challenge/
 cd react-apollo
 ```
 
