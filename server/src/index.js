@@ -19,7 +19,7 @@ const server = new GraphQLServer({
     ...req,
     db: new Prisma({
       typeDefs: 'src/generated/prisma.graphql',
-      endpoint: "https://us1.prisma.sh/rodrigo-magalhaes/hackernews-graphql-js/dev",
+      endpoint: "http://localhost:4466/hackernews-graphql-js/local",
       secret: 'mysecret123',
     }),
   }),
