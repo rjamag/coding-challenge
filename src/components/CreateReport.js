@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
-import { withApollo } from 'react-apollo'
+import { graphql, withApollo } from 'react-apollo'
 import ReportList from './ReportList'
 
 class CreateReport extends Component {
