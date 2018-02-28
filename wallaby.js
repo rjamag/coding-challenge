@@ -13,13 +13,13 @@ module.exports = function (wallaby) {
   return {
     files: [
       'src/**/*.+(js|jsx|json|snap|css|less|sass|scss|jpg|jpeg|gif|png|svg)',
-      '!test/**/*.test.js?(x)'
+      '!src/**/*.test.js?(x)'
     ],
     filesWithNoCoverageCalculated: [
       'src/registerServiceWorker.js',
       'src/index.js'
     ],
-    tests: ['test/**/*.test.js?(x)'],
+    tests: ['src/test/**/*.test.js?(x)'],
 
     env: {
       type: 'node',

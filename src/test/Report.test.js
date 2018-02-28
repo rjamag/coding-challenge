@@ -1,15 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Report from '../components/Report'
-import Enzyme, { shallow } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
-
-Enzyme.configure({ adapter: new Adapter() })
+import { shallow, mount, render } from 'enzyme';
 
 describe('Report', () => {
 
-  it('should be defined', () => {
-    expect(Report).toBeDefined()
+  it('should render without throwing an error', () => {
+    const wrapper = shallow(<Report />)
+    console.log('oi')
+
   })
 
 })
