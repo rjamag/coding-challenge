@@ -13,7 +13,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory'
 import { WebSocketLink } from 'apollo-link-ws'
 import { getMainDefinition } from 'apollo-utilities'
 
-const httpLink = new HttpLink({ uri: `https://localhost:4000` })
+const httpLink = new HttpLink({ uri: `http://localhost:4000` })
 
 const middlewareAuthLink = new ApolloLink((operation, forward) => {
   const token = localStorage.getItem(AUTH_TOKEN)
