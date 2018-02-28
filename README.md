@@ -86,7 +86,7 @@ yarn start
 
 You can now open your browser and use the app on `http://localhost:3000`.
 
-### 5. Build the app
+### 6. Build the app
 
 To create a production build, use the following command (the command needs to be run in a new terminal tab/window inside the root directory `coding-challenge`):
 
