@@ -19,7 +19,7 @@ const myreport = {
 describe('<Report/>', () => {
 
   it('should render without throwing an error', () => {
-    const wrapper = shallow(<Report key={myreport.id} index={1} report={myreport} />)
+    const wrapper = shallow(<Report key={myreport.id} index={0} report={myreport} />)
 
     expect(wrapper.find(Report))
 
@@ -28,6 +28,12 @@ describe('<Report/>', () => {
         <div className="f6 lh-copy">
           {wrapper.props('report.description')}
         </div>
+      )
+    ).toBeTruthy()
+
+    expect(
+      wrapper.containsMatchingElement(
+        <span>1. Rodrigo | 2 h ago</span>
       )
     ).toBeTruthy()
 
