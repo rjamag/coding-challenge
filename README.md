@@ -16,7 +16,7 @@ This is the sample project that belongs to the [React & Apollo Tutorial](https:/
 
 ```sh
 git clone https://github.com/rjamag/coding-challenge/
-cd react-apollo
+cd coding-challenge
 ```
 
 ### 2. Deploy the Prisma database service
