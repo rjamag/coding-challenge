@@ -1,5 +1,274 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<CreateReport/>  should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
 exports[`<CreateReport/> renders content 1`] = `
 <div>
   <h3>
@@ -2249,6 +2518,1889 @@ exports[`<CreateReport/> renders loading screen 1`] = `
       </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`<CreateReport/> should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<CreateReport/> usi should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<CreateReport/> using  should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<CreateReport/> using en should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<CreateReport/> using enz should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<CreateReport/> using enzy should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<CreateReport/> using enzyme should render without throwing an error 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value="hello"
+    />
+  </div>
+  <button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <ReportList
+    linkId="cjdzfajlk081z0184iykv7su1"
+    reports={
+      Array [
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:18.000Z",
+          "description": "1",
+          "id": "cjdzfb5cc082p0184jwbui332",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:15:21.000Z",
+          "description": "2",
+          "id": "cjdzfb7hj082w0184wcboubhw",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:07.000Z",
+          "description": "3",
+          "id": "cjdzfc71508570184rxejeigy",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:20.000Z",
+          "description": "4",
+          "id": "cjdzfcgyp08600184o6q6jm9g",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:28.000Z",
+          "description": "5",
+          "id": "cjdzfcnb7086k0184vfvdeqpg",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfa7e0081t0184ba5f7q78",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-23T04:16:45.000Z",
+          "description": "6",
+          "id": "cjdzfczy7087x0184gxes066e",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-24T23:41:31.000Z",
+          "description": "7",
+          "id": "cje20erif0bhh0184o1xjp0nv",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T03:49:06.000Z",
+          "description": "1",
+          "id": "cje29958b0qyp01849y5ixm8s",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-25T05:49:59.000Z",
+          "description": "9",
+          "id": "cje2dkm8f0tg101847fobzznf",
+          "user": Object {
+            "__typename": "User",
+            "id": "cjdzfc0fo084e01843xojr2ne",
+            "name": "Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-27T04:27:56.000Z",
+          "description": "1",
+          "id": "cje55isn7008b01408043ql1u",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T02:59:56.000Z",
+          "description": "2",
+          "id": "cje6hthge02qm0140g18oefxi",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T05:46:50.000Z",
+          "description": "12",
+          "id": "cje6ns3wl08cv0140i28uwk66",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-02-28T08:19:25.000Z",
+          "description": "este e um teste",
+          "id": "cje6t8c1t08pv0140ju8jtxmo",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:19.000Z",
+          "description": "14",
+          "id": "cje84ugpw3h140140102wjptu",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:32:29.000Z",
+          "description": "15",
+          "id": "cje84uolp3h300140s8huy2ea",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:05.000Z",
+          "description": "16",
+          "id": "cje84vgbq3h940140ltd0s049",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:33:13.000Z",
+          "description": "17",
+          "id": "cje84vlzb3ha001402zx0wnkc",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:35:43.000Z",
+          "description": "18",
+          "id": "cje84yua23i070140psr9mq05",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje6begw300hj0140teu6smwa",
+            "name": "Rodrigo Jose",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T06:36:04.000Z",
+          "description": "19",
+          "id": "cje84zae33i4l0140p7fg8ms0",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:36:58.000Z",
+          "description": "123123123123123",
+          "id": "cje875lnh420m0140tbxspmse",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+        Object {
+          "__typename": "Report",
+          "createdAt": "2018-03-01T07:38:44.000Z",
+          "description": "456",
+          "id": "cje877vcy42nu0140ockph5t4",
+          "user": Object {
+            "__typename": "User",
+            "id": "cje55icc7006i01403v3lgypb",
+            "name": "Rodrigo",
+          },
+        },
+      ]
+    }
+  />
 </div>
 `;
 

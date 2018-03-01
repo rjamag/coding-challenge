@@ -45,12 +45,11 @@ export class CreateReport extends Component {
   }
 
   _createReport = async () => {
-    var myJSON = JSON.stringify(this.props);
-    console.log('MyJSON: ' + myJSON)
-    return;
-
     const { description } = this.state
     const linkId = this.props.match.params.id
+
+    // var myJSON = JSON.stringify(this.props);
+    // console.log('MyJSON: ' + myJSON)
 
     await this.props.reportMutation({
       variables: {
@@ -77,7 +76,7 @@ export class CreateReport extends Component {
   }
 }
 
-const REPORT_MUTATION = gql`
+export const REPORT_MUTATION = gql`
   mutation ReportMutation($linkId: ID!, $description: String!) {
     report(linkId: $linkId, description: $description) {
       id
@@ -132,23 +131,14 @@ export const FEED_REPORTS_QUERY = gql`
   }
 `
 
-// export default compose(
-//   graphql(REPORT_MUTATION, {
-//     name: 'reportMutation'
-//   }),
-//   graphql(FEED_REPORTS_QUERY, {
-//     name: 'feedReportsQuery',
-//     options: ({ match: { params: { id } } }) => ({
-//       variables: { filter: id }
-//     })
-//   }),
-// )(CreateReport)
-
-export default
+export default compose(
+  graphql(REPORT_MUTATION, {
+    name: 'reportMutation'
+  }),
   graphql(FEED_REPORTS_QUERY, {
     name: 'feedReportsQuery',
     options: ({ match: { params: { id } } }) => ({
       variables: { filter: id }
     })
-  })
-    (CreateReport)
+  }),
+)(CreateReport)
