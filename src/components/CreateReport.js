@@ -1,26 +1,14 @@
 import React, { Component } from 'react'
 import gql from 'graphql-tag'
-import { graphql, compose, withApollo } from 'react-apollo'
+import { graphql, compose } from 'react-apollo'
 import ReportList from './ReportList'
 
 export class CreateReport extends Component {
   state = {
-    linkId: '',
-    linkUrl: '',
-    linkDescription: '',
     description: '',
-    reports: [],
   }
 
-  // componentDidMount() {
-  //   //this._executeSearchReports()
-  // }
-
   render() {
-    // if (this.state.linkDescription === '' && this.state.linkUrl === '') {
-    //   return <div>Loading</div>
-    // }
-
     if (this.props.feedReportsQuery && this.props.feedReportsQuery.loading) {
       return <div>Loading</div>
     }
@@ -29,10 +17,8 @@ export class CreateReport extends Component {
       return <div>Error</div>
     }
 
-    console.log("this.props.feedReportsQuery", this.props.feedReportsQuery)
-
     return (
-      <div>
+      < div >
         <h3>{this.props.feedReportsQuery.feedReportsFromLink.links[0].description} <br /> {this.props.feedReportsQuery.feedReportsFromLink.links[0].url}</h3>
 
         <div className="flex flex-column mt3">
@@ -49,52 +35,20 @@ export class CreateReport extends Component {
 
         <button onClick={() => this._createReport()} disabled={!this.state.description}>Report Fake News</button>
 
-        {/* <ReportList
-          linkId={this.state.linkId}
-          reports={this.state.reports}
-        /> */}
-
         <ReportList
           linkId={this.props.match.params.id}
           reports={this.props.feedReportsQuery.feedReportsFromLink.links[0].reports}
         />
 
-      </div>
+      </div >
     )
   }
 
-  _executeSearchReports = async () => {
-    const linkId = this.props.match.params.id
-
-
-    // const result = await this.props.client.query({
-    //   query: FEED_REPORTS_QUERY,
-    //   variables: { filter: linkId },
-    //   options: { pollInterval: 5000 },
-    // })
-
-    //feedReportsQuery
-    const result = await this.props.feedReportsQuery({
-      variables: {
-        filter: linkId
-      },
-      options: { pollInterval: 5000 },
-    })
-
-
-    const reports = result.data.feedReportsFromLink.links[0].reports
-    const linkUrl = result.data.feedReportsFromLink.links[0].url
-    const linkDescription = result.data.feedReportsFromLink.links[0].description
-
-    this.setState({
-      linkId,
-      linkUrl,
-      linkDescription,
-      reports,
-    })
-  }
-
   _createReport = async () => {
+    var myJSON = JSON.stringify(this.props);
+    console.log('MyJSON: ' + myJSON)
+    return;
+
     const { description } = this.state
     const linkId = this.props.match.params.id
 
@@ -108,17 +62,14 @@ export class CreateReport extends Component {
           query: FEED_REPORTS_QUERY,
           variables: {
             filter: linkId,
-          },
+          }
         })
 
         data.feedReportsFromLink.links[0].reports = report.link.reports
 
         store.writeQuery({ query: FEED_REPORTS_QUERY, data })
 
-        const reports = data.feedReportsFromLink.links[0].reports
-
         this.setState({
-          reports,
           description: ''
         })
       },
@@ -149,7 +100,7 @@ const REPORT_MUTATION = gql`
   }
 `
 
-const FEED_REPORTS_QUERY = gql`
+export const FEED_REPORTS_QUERY = gql`
   query FeedReportsFromLinkQuery($filter: String!) {
     feedReportsFromLink(filter: $filter) {
       links {
@@ -165,39 +116,39 @@ const FEED_REPORTS_QUERY = gql`
             name
           }
         }
-        createdAt
-        postedBy {
-          id
-          name
-        }
-        votes {
-          id
-          user {
-            id
-          }
-        }
+        # createdAt
+        # postedBy {
+        #   id
+        #   name
+        # }
+        # votes {
+        #   id
+        #   user {
+        #     id
+        #   }
+        # }
       }
     }
   }
 `
 
-// export default withApollo(graphql(REPORT_MUTATION, { name: 'reportMutation' })(
-//   CreateReport,
-// ))
+// export default compose(
+//   graphql(REPORT_MUTATION, {
+//     name: 'reportMutation'
+//   }),
+//   graphql(FEED_REPORTS_QUERY, {
+//     name: 'feedReportsQuery',
+//     options: ({ match: { params: { id } } }) => ({
+//       variables: { filter: id }
+//     })
+//   }),
+// )(CreateReport)
 
-export default compose(
-  graphql(REPORT_MUTATION, { name: 'reportMutation' }),
+export default
   graphql(FEED_REPORTS_QUERY, {
     name: 'feedReportsQuery',
-
-    options: ownProps => {
-
-      const linkId = ownProps.match.params.id
-
-      return {
-        variables: { filter: linkId },
-      }
-    }
-
-  }),
-)(CreateReport)
+    options: ({ match: { params: { id } } }) => ({
+      variables: { filter: id }
+    })
+  })
+    (CreateReport)

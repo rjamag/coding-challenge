@@ -1,0 +1,4505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateReport/> renders content 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CreateReport/> renders correctly 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CreateReport/> renders error screen 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CreateReport/> renders loading screen 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders content 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders error screen 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders loading screen 1`] = `
+<div>
+  <h3>
+    Este é um primeiro teste
+     
+    <br />
+     
+    www.test1.com
+  </h3>
+  <div
+    className="flex flex-column mt3"
+  >
+    <textarea
+      className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"
+      maxLength="2000"
+      onChange={[Function]}
+      placeholder="Enter a description for the fake news report"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Report Fake News
+  </button>
+  <div>
+    <div>
+      <h4>
+        Fake News Reports
+      </h4>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            1
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            2
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            3
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          3
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            4
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          4
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            5
+            . 
+            Rodrigo
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          5
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            6
+            . 
+            Jose
+             | 
+            6 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          6
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            7
+            . 
+            Jose
+             | 
+            5 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          7
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            8
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            9
+            . 
+            Jose
+             | 
+            4 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          9
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            10
+            . 
+            Rodrigo
+             | 
+            2 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          1
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            11
+            . 
+            Rodrigo Jose
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          2
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            12
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          12
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            13
+            . 
+            Rodrigo
+             | 
+            1 days ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          este e um teste
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            14
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          14
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            15
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          15
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            16
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          16
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            17
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          17
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            18
+            . 
+            Rodrigo Jose
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          18
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            19
+            . 
+            Rodrigo
+             | 
+            6 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          19
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            20
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          123123123123123
+        </div>
+        <br />
+      </div>
+    </div>
+    <div
+      className="flex mt2 items-start"
+    >
+      <div
+        className="ml1"
+      >
+        <div
+          className="f6 lh-copy gray"
+        >
+          <span>
+            21
+            . 
+            Rodrigo
+             | 
+            5 h ago
+          </span>
+        </div>
+        <div
+          className="f6 lh-copy"
+        >
+          456
+        </div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>
+`;
