@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import gql from 'graphql-tag'
-import { graphql, withApollo } from 'react-apollo'
+import { graphql, compose, withApollo } from 'react-apollo'
 import ReportList from './ReportList'
 
-class CreateReport extends Component {
+export class CreateReport extends Component {
   state = {
     linkId: '',
     linkUrl: '',
@@ -12,18 +12,28 @@ class CreateReport extends Component {
     reports: [],
   }
 
-  componentDidMount() {
-    this._executeSearchReports()
-  }
+  // componentDidMount() {
+  //   //this._executeSearchReports()
+  // }
 
   render() {
-    if (this.state.linkDescription === '' && this.state.linkUrl === '') {
+    // if (this.state.linkDescription === '' && this.state.linkUrl === '') {
+    //   return <div>Loading</div>
+    // }
+
+    if (this.props.feedReportsQuery && this.props.feedReportsQuery.loading) {
       return <div>Loading</div>
     }
 
+    if (this.props.feedReportsQuery && this.props.feedReportsQuery.error) {
+      return <div>Error</div>
+    }
+
+    console.log("this.props.feedReportsQuery", this.props.feedReportsQuery)
+
     return (
       <div>
-        <h3>{this.state.linkDescription} <br /> {this.state.linkUrl}</h3>
+        <h3>{this.props.feedReportsQuery.feedReportsFromLink.links[0].description} <br /> {this.props.feedReportsQuery.feedReportsFromLink.links[0].url}</h3>
 
         <div className="flex flex-column mt3">
           <textarea
@@ -39,9 +49,14 @@ class CreateReport extends Component {
 
         <button onClick={() => this._createReport()} disabled={!this.state.description}>Report Fake News</button>
 
-        <ReportList
+        {/* <ReportList
           linkId={this.state.linkId}
           reports={this.state.reports}
+        /> */}
+
+        <ReportList
+          linkId={this.props.match.params.id}
+          reports={this.props.feedReportsQuery.feedReportsFromLink.links[0].reports}
         />
 
       </div>
@@ -51,11 +66,21 @@ class CreateReport extends Component {
   _executeSearchReports = async () => {
     const linkId = this.props.match.params.id
 
-    const result = await this.props.client.query({
-      query: FEED_REPORTS_QUERY,
-      variables: { filter: linkId },
+
+    // const result = await this.props.client.query({
+    //   query: FEED_REPORTS_QUERY,
+    //   variables: { filter: linkId },
+    //   options: { pollInterval: 5000 },
+    // })
+
+    //feedReportsQuery
+    const result = await this.props.feedReportsQuery({
+      variables: {
+        filter: linkId
+      },
       options: { pollInterval: 5000 },
     })
+
 
     const reports = result.data.feedReportsFromLink.links[0].reports
     const linkUrl = result.data.feedReportsFromLink.links[0].url
@@ -156,6 +181,23 @@ const FEED_REPORTS_QUERY = gql`
   }
 `
 
-export default withApollo(graphql(REPORT_MUTATION, { name: 'reportMutation' })(
-  CreateReport,
-))
+// export default withApollo(graphql(REPORT_MUTATION, { name: 'reportMutation' })(
+//   CreateReport,
+// ))
+
+export default compose(
+  graphql(REPORT_MUTATION, { name: 'reportMutation' }),
+  graphql(FEED_REPORTS_QUERY, {
+    name: 'feedReportsQuery',
+
+    options: ownProps => {
+
+      const linkId = ownProps.match.params.id
+
+      return {
+        variables: { filter: linkId },
+      }
+    }
+
+  }),
+)(CreateReport)
