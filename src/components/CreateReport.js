@@ -5,7 +5,7 @@ import ReportList from './ReportList'
 
 export class CreateReport extends Component {
   state = {
-    description: '',
+    description: ''
   }
 
   render() {
