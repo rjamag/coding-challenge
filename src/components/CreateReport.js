@@ -18,6 +18,7 @@ export class CreateReport extends Component {
     }
 
     return (
+
       <div>
         <h3>{this.props.feedReportsQuery.feedReportsFromLink.links[0].description} <br /> {this.props.feedReportsQuery.feedReportsFromLink.links[0].url}</h3>
 
