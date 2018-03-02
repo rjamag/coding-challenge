@@ -18,7 +18,7 @@ export class CreateReport extends Component {
     }
 
     return (
-      < div >
+      <div>
         <h3>{this.props.feedReportsQuery.feedReportsFromLink.links[0].description} <br /> {this.props.feedReportsQuery.feedReportsFromLink.links[0].url}</h3>
 
         <div className="flex flex-column mt3">
@@ -39,17 +39,13 @@ export class CreateReport extends Component {
           linkId={this.props.match.params.id}
           reports={this.props.feedReportsQuery.feedReportsFromLink.links[0].reports}
         />
-
-      </div >
+      </div>
     )
   }
 
   _createReport = async () => {
     const { description } = this.state
     const linkId = this.props.match.params.id
-
-    // var myJSON = JSON.stringify(this.props);
-    // console.log('MyJSON: ' + myJSON)
 
     await this.props.reportMutation({
       variables: {
@@ -115,17 +111,6 @@ export const FEED_REPORTS_QUERY = gql`
             name
           }
         }
-        # createdAt
-        # postedBy {
-        #   id
-        #   name
-        # }
-        # votes {
-        #   id
-        #   user {
-        #     id
-        #   }
-        # }
       }
     }
   }
