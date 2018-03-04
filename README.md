@@ -93,3 +93,7 @@ To create a production build, use the following command (the command needs to be
 ```sh
 yarn build
 ```
+
+### 7. Demo Application - running on Heroku
+
+https://radiant-bastion-73738.herokuapp.com
