@@ -94,6 +94,8 @@ To create a production build, use the following command (the command needs to be
 yarn build
 ```
 
-### 7. Demo Application - running on Heroku
+### 7. Demo Application
+
+Demo app is running on two separate Docker images at Heroku
 
 https://radiant-bastion-73738.herokuapp.com
