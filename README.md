@@ -96,6 +96,6 @@ yarn build
 
 ### 7. Demo Application
 
-Demo app is running on two separate Docker images at Heroku
+Demo app is running on two separate Docker containers at Heroku
 
 https://radiant-bastion-73738.herokuapp.com
